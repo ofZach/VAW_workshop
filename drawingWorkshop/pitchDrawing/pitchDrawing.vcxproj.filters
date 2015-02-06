@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\aubio\aubioAnalyzer.cpp">
+			<Filter>src\aubio</Filter>
+		</ClCompile>
+		<ClCompile Include="src\aubio\lib\aubioOSX.a">
+			<Filter>src\aubio\lib</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio">
+			<UniqueIdentifier>{21175BE8-97D6-0947-B073-8FAA}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio\include">
+			<UniqueIdentifier>{20980B4E-304D-6DE0-8EF9-24D7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio\include\aubio">
+			<UniqueIdentifier>{75456F43-3126-4A68-FF47-9362}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio\include\fft">
+			<UniqueIdentifier>{160B3153-5D63-B6F9-5145-423A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio\include\libsamplerate">
+			<UniqueIdentifier>{E3A1A004-43FD-6259-AD46-6A1B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio\include\libsndfile">
+			<UniqueIdentifier>{DF6A183F-3AC9-CC00-3AD9-72F6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="src\aubio\lib">
+			<UniqueIdentifier>{C19A986E-B2AC-C974-A78A-968F}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\aubioAnalyzer.h">
+			<Filter>src\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\aubio.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\aubio_priv.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\beattracking.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\biquad.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\fft.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\filter.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\hist.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\mathutils.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\onset.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\onsetdetection.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\peakpick.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\phasevoc.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\pitchdetection.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\pitchfcomb.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\pitchmcomb.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\pitchschmitt.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\pitchyin.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\pitchyinfft.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\resample.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\sample.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\scale.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\tempo.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\tss.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\aubio\types.h">
+			<Filter>src\aubio\include\aubio</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\fft\fftw3.h">
+			<Filter>src\aubio\include\fft</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\common.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\config.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\fastest_coeffs.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\float_cast.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\high_qual_coeffs.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\mid_qual_coeffs.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsamplerate\samplerate.h">
+			<Filter>src\aubio\include\libsamplerate</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsndfile\sndfile.h">
+			<Filter>src\aubio\include\libsndfile</Filter>
+		</ClInclude>
+		<ClInclude Include="src\aubio\include\libsndfile\sndfile.hh">
+			<Filter>src\aubio\include\libsndfile</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
